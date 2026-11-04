@@ -7,6 +7,8 @@
 
 I’m a software developer from Belarus, available for full-stack projects. I work with Python and JavaScript, from web applications and APIs to tools for data processing and reproducible testing.
 
+Try the current preview: [Reprolattice v0.2.0](https://github.com/Pavel-Shcherbo/reprolattice/releases/tag/v0.2.0) — [reproduce a retry failure](https://github.com/Pavel-Shcherbo/reprolattice/blob/main/docs/START_HERE.md).
+
 [LinkedIn](https://www.linkedin.com/in/pavel-shcherbo-8b7b901a9/) · [Selected work](#selected-work) · [Technical focus](#technical-focus) · [More projects](#more-projects)
 
 ## Selected work
