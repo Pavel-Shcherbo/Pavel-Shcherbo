@@ -4,20 +4,21 @@ Software developer from Belarus. I am available for full-stack development.
 
 ## Stack
 
-- **Languages:** Python, TypeScript / JavaScript, Kotlin, Java, C
-- **Backend:** Django, Flask, Node.js / Express, REST APIs
-- **Frontend:** Next.js, React, Tailwind CSS, HTML / CSS
-- **Data:** PostgreSQL, MongoDB, SQLite
-- **Tools:** Git, Linux, Docker, WireGuard / IPsec
+- **Languages:** Python, JavaScript, Kotlin
+- **Backend:** Django, Node.js / Express, PostgreSQL
+- **Frontend:** HTML, CSS, JavaScript
+- **Mobile:** Android (Kotlin), Firebase Auth
+- **Also worked with:** Java, C, TypeScript, Next.js
+- **Tools:** Git, Linux, WireGuard / IPsec
 
 ## Projects
 
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [adaptive-vpn](https://github.com/Pavel-Shcherbo/adaptive-vpn) | VPN that switches between WireGuard and IPsec depending on ping, jitter and bandwidth | Python |
-| [process-manager](https://github.com/Pavel-Shcherbo/process_manager) | Business process and document management system with roles and analytics | Django, PostgreSQL |
-| [finance-app](https://github.com/Pavel-Shcherbo/finance-app) | Personal finance tracker with categories, history and balance | Node.js, Express, MongoDB |
-| [FreelanceHub](https://github.com/Pavel-Shcherbo/FreelanceHub) | Android app where customers post jobs and freelancers respond | Kotlin |
+| [process_manager](https://github.com/Pavel-Shcherbo/process_manager) | Business process and document management system with roles, a process tree and analytics | Django, PostgreSQL |
+| [finance-app](https://github.com/Pavel-Shcherbo/finance-app) | Weekly activity planner with conflict checking and a REST API | Node.js, Express |
+| [FreelanceHub](https://github.com/Pavel-Shcherbo/FreelanceHub) | Android prototype of a freelance marketplace with Firebase sign-up and sign-in, requirements and diagrams | Kotlin, Firebase |
 
 ## Contact
 
