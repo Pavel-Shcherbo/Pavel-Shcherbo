@@ -5,7 +5,7 @@
   <img src="assets/profile-light-desktop.svg" alt="Pavel Shcherbo — software developer working on data systems, research and developer tools">
 </picture>
 
-I’m a software developer from Belarus, available for full-stack projects. I work with Python, JavaScript and Kotlin, from web applications and APIs to tools for data processing and reproducible testing.
+I’m a software developer from Belarus, available for full-stack projects. I work with Python and JavaScript, from web applications and APIs to tools for data processing and reproducible testing.
 
 [LinkedIn](https://www.linkedin.com/in/pavel-shcherbo-8b7b901a9/) · [Selected work](#selected-work) · [Technical focus](#technical-focus) · [More projects](#more-projects)
 
@@ -83,7 +83,7 @@ Earlier timestamps in these three repositories are explicitly disclosed reconstr
 | --- | --- |
 | Backend & data | Python, Django, Node.js / Express, PostgreSQL, SQLite |
 | Web interfaces | JavaScript, HTML, CSS; also TypeScript and Next.js |
-| Mobile | Kotlin, Android, Firebase Auth |
+| Mobile | Android, Firebase Auth |
 | Systems & tooling | Git, Linux, HTTP/JSON, WireGuard / IPsec |
 
 I’ve also worked with Java and C. I prefer explicit assumptions, useful failure reports and examples that another developer can run.
