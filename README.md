@@ -71,7 +71,7 @@ A correct acknowledgement is checked separately from a correct database effect. 
 <details>
 <summary>How this work is verified</summary>
 
-The three projects include **871 unit and integration tests**, exercised on CPython 3.10–3.14 on macOS arm64. Clean installed CLI/API scenarios were also checked on 3.10 and 3.14. Each repository links its control inputs, resource limits and retained verification records.
+The current suites contain **880 unit and integration tests**, passed on CPython 3.14.6 on macOS arm64. The earlier 871-test baseline was exercised on CPython 3.10–3.14, with clean installed CLI/API scenarios on 3.10 and 3.14. Each repository distinguishes current increment checks from that earlier qualification and links its control inputs, resource limits and retained verification records.
 
 Earlier timestamps in these three repositories are explicitly disclosed reconstructed development stages, assembled in November 2026. They do not establish original work in those years. Current implementation and proposed roadmap items are documented separately.
 
