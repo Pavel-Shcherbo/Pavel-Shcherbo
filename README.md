@@ -79,7 +79,12 @@ Earlier timestamps in these three repositories are explicitly disclosed reconstr
 
 </details>
 
-## Open-source reviews
+## Open-source contributions
+
+- [Dagster #34402](https://github.com/dagster-io/dagster/pull/34402): code and regression tests for Kubernetes pod logs whose timestamps use different fractional-second precision. The follow-up correction preserves split message fragments such as `v1.2.0Z`. All 45 focused Pipes unit tests pass locally; upstream review and CI remain visible in the PR.
+- [Dagster #34389](https://github.com/dagster-io/dagster/pull/34389#issuecomment-6647988236): supplied a failing-before/passing-after regression for an HTTP 500 followed by a connection error. The author added the test to the PR.
+
+### Reviews
 
 - [responses #842](https://github.com/getsentry/responses/pull/842#discussion_r4474910164): reproduced a nested-JSON comparison regression against the exact base and PR head, including a real RequestsMock call. All 81 matcher tests passed; the review adds a runnable compatibility control.
 - [RESPX #337](https://github.com/lundberg/respx/pull/337#pullrequestreview-5777109459): checked cookie expiration instants across timezone offsets and DST boundaries, with five focused upstream tests and eleven additional controls.
