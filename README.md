@@ -79,6 +79,13 @@ Earlier timestamps in these three repositories are explicitly disclosed reconstr
 
 </details>
 
+## Open-source reviews
+
+- [responses #842](https://github.com/getsentry/responses/pull/842#discussion_r4474910164): reproduced a nested-JSON comparison regression against the exact base and PR head, including a real RequestsMock call. All 81 matcher tests passed; the review adds a runnable compatibility control.
+- [RESPX #337](https://github.com/lundberg/respx/pull/337#pullrequestreview-5777109459): checked cookie expiration instants across timezone offsets and DST boundaries, with five focused upstream tests and eleven additional controls.
+
+These are focused reviews of the linked commits on CPython 3.14.6. Author responses and subsequent changes are visible in the original threads.
+
 ## Technical focus
 
 | Area | Technologies |

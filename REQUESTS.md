@@ -11,3 +11,5 @@ Verification update — 2026-11-05: current project suites total 880 passing tes
 Profile correction — 2026-11-05: Pavel requested removing Kotlin from the public profile. Removed it from the README introduction and technology table. Biography was edited separately; final public readback is retained in the central request register.
 
 Community launch — 2026-11-05: added a direct link to the verified Reprolattice preview and installed retry walkthrough. MIT and Q&A entry points are published in the three project repositories. Actual audience growth is measured separately in the central growth register; no follower/star increase is claimed by this profile edit.
+
+Open-source activity — 2026-11-05: added links to two independently verified external reviews, responses #842 and RESPX #337, with their exact check scope. Current public review records were read back before the edit. No merged-fix, maintainer-endorsement or follower-gain claim. Published profile status and commit are tracked in the central portfolio register.
