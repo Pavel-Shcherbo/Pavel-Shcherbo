@@ -81,15 +81,16 @@ Earlier timestamps in these three repositories are explicitly disclosed reconstr
 
 ## Open-source contributions
 
+- [redis-py #4577](https://github.com/redis/redis-py/pull/4577): proposed next-major support for four typed Redis Cluster URL options across sync and async clients. Includes 156 new cases; 225 focused checks pass on Python 3.12 and 3.14. Maintainer acceptance and full integration CI remain pending.
 - [Dagster #34402](https://github.com/dagster-io/dagster/pull/34402): code and regression tests for Kubernetes pod logs whose timestamps use different fractional-second precision. The follow-up correction preserves split message fragments such as `v1.2.0Z`. All 45 focused Pipes unit tests pass locally; upstream review and CI remain visible in the PR.
 - [Dagster #34389](https://github.com/dagster-io/dagster/pull/34389#issuecomment-6647988236): supplied a failing-before/passing-after regression for an HTTP 500 followed by a connection error. The author added the test to the PR.
 
 ### Reviews
 
 - [responses #842](https://github.com/getsentry/responses/pull/842#discussion_r4474910164): reproduced a nested-JSON comparison regression against the exact base and PR head, including a real RequestsMock call. All 81 matcher tests passed; the review adds a runnable compatibility control.
-- [RESPX #337](https://github.com/lundberg/respx/pull/337#pullrequestreview-5777109459): checked cookie expiration instants across timezone offsets and DST boundaries, with five focused upstream tests and eleven additional controls.
+- [RESPX #337](https://github.com/lundberg/respx/pull/337#issuecomment-6662125950): checked cookie expiration across timezone offsets and DST boundaries. The author retained the suggested public HTTPX cookie-jar regression; six focused checks pass on the updated head, and the new regression fails with the original implementation.
 
-These are focused reviews of the linked commits on CPython 3.14.6. Author responses and subsequent changes are visible in the original threads.
+Validation applies to the linked revisions: the responses review used CPython 3.14.6; the latest RESPX follow-up used CPython 3.12.9. Full compatibility matrices and maintainer decisions are separate from these focused checks.
 
 ## Technical focus
 
