@@ -81,6 +81,8 @@ Earlier timestamps in these three repositories are explicitly disclosed reconstr
 
 ## Open-source contributions
 
+- [Pillow #10434](https://github.com/python-pillow/Pillow/pull/10434): proposed a native fix for `getcolors()` hanging with a negative color limit. Adds 37 regression/control cases; 129 focused checks and 59 selftest checks pass in [Ubuntu/Python 3.12 CI](https://github.com/Pavel-Shcherbo/Pillow/actions/runs/42157659330). Upstream review and the full platform matrix remain pending.
+- [responses #845](https://github.com/getsentry/responses/pull/845): a composable pytest-fixture recipe with four tested scenarios and a separately executed README example. Focused checks and pinned hooks pass; upstream review and CI approval remain pending.
 - [redis-py #4577](https://github.com/redis/redis-py/pull/4577): proposed next-major support for four typed Redis Cluster URL options across sync and async clients. Includes 156 new cases; 225 focused checks pass on Python 3.12 and 3.14. Maintainer acceptance and full integration CI remain pending.
 - [Dagster #34402](https://github.com/dagster-io/dagster/pull/34402): code and regression tests for Kubernetes pod logs whose timestamps use different fractional-second precision. The follow-up correction preserves split message fragments such as `v1.2.0Z`. All 45 focused Pipes unit tests pass locally; upstream review and CI remain visible in the PR.
 - [Dagster #34389](https://github.com/dagster-io/dagster/pull/34389#issuecomment-6647988236): supplied a failing-before/passing-after regression for an HTTP 500 followed by a connection error. The author added the test to the PR.
@@ -91,6 +93,10 @@ Earlier timestamps in these three repositories are explicitly disclosed reconstr
 - [RESPX #337](https://github.com/lundberg/respx/pull/337#issuecomment-6662125950): checked cookie expiration across timezone offsets and DST boundaries. The author retained the suggested public HTTPX cookie-jar regression; six focused checks pass on the updated head, and the new regression fails with the original implementation.
 
 Validation applies to the linked revisions: the responses review used CPython 3.14.6; the latest RESPX follow-up used CPython 3.12.9. Full compatibility matrices and maintainer decisions are separate from these focused checks.
+
+### Community answers
+
+- [Positron #17167](https://github.com/posit-dev/positron/discussions/17167#discussioncomment-19431617): traced the Python-installation picker to the external uv version catalog. The author confirmed that upgrading uv resolved the problem and marked the answer as accepted.
 
 ## Technical focus
 
