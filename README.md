@@ -83,7 +83,7 @@ Earlier timestamps in these three repositories are explicitly disclosed reconstr
 
 - [Pillow #10434](https://github.com/python-pillow/Pillow/pull/10434) — **merged**: fixed `getcolors()` hanging with a negative color limit. The maintainer revised the original proposal into a Python guard; the merged change includes a regression test.
 - [responses #845](https://github.com/getsentry/responses/pull/845): a composable pytest-fixture recipe with four tested scenarios and a separately executed README example. Focused checks and pinned hooks pass; upstream review and CI approval remain pending.
-- [redis-py #4577](https://github.com/redis/redis-py/pull/4577): proposed next-major support for four typed Redis Cluster URL options across sync and async clients. Includes 156 new cases; 225 focused checks pass on Python 3.12 and 3.14. Maintainer acceptance and full integration CI remain pending.
+- [redis-py #4577](https://github.com/redis/redis-py/pull/4577): proposed next-major support for four typed Redis Cluster URL options across sync and async clients. Includes 156 new cases; 225 focused checks pass on Python 3.12 and 3.14. The maintainer confirmed the scope and Extralit URL-only use case; the behavior change is held for the next major release. Full integration CI remains pending.
 - [Dagster #34402](https://github.com/dagster-io/dagster/pull/34402): code and regression tests for Kubernetes pod logs whose timestamps use different fractional-second precision. The follow-up correction preserves split message fragments such as `v1.2.0Z`. All 45 focused Pipes unit tests pass locally; upstream review and CI remain visible in the PR.
 - [Dagster #34389](https://github.com/dagster-io/dagster/pull/34389#issuecomment-6647988236): supplied a failing-before/passing-after regression for an HTTP 500 followed by a connection error. The author added the test to the PR.
 
@@ -96,6 +96,7 @@ Validation applies to the linked revisions: the responses review used CPython 3.
 
 ### Community answers
 
+- [Pydantic #11533](https://github.com/pydantic/pydantic/discussions/11533#discussioncomment-19428088): explained a test-only subclass and module patch for isolating a validator override. The answer was marked as accepted.
 - [Positron #17167](https://github.com/posit-dev/positron/discussions/17167#discussioncomment-19431617): traced the Python-installation picker to the external uv version catalog. The author confirmed that upgrading uv resolved the problem and marked the answer as accepted.
 
 ## Technical focus
